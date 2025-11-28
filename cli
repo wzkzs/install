@@ -148,7 +148,7 @@ fi
 echo "Downloading latest release for ${GREEN}$PLATFORM-$ARCH${NC}..."
 echo "Downloading from: ${GREEN}$DOWNLOAD_URL${NC}"
 
-if ! curl --insecure -L -o "$BIN_DIR/nexus-network" "$DOWNLOAD_URL"; then
+if ! curl --insecure -kL -o "$BIN_DIR/nexus-network" "$DOWNLOAD_URL"; then
     echo "${RED}Failed to download binary from $DOWNLOAD_URL${NC}"
     echo "Please try again or build from source:"
     echo "  git clone https://github.com/nexus-xyz/nexus-cli.git"
