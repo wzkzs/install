@@ -11,8 +11,8 @@ RED='\033[1;31m'
 NC='\033[0m'  # No Color
 
 # Release-specific download URLs (populated by CI)
-LINUX_X86_64_URL="https://github.com/nexus-xyz/nexus-cli/releases/download/v0.10.17/nexus-network-linux-x86_64"
-LINUX_ARM64_URL="https://github.com/nexus-xyz/nexus-cli/releases/download/v0.10.17/nexus-network-linux-arm64"
+LINUX_X86_64_URL="https://github.com/nexus-xyz/nexus-cli/releases/download/v0.10.16/nexus-network-linux-x86_64"
+LINUX_ARM64_URL="https://github.com/nexus-xyz/nexus-cli/releases/download/v0.10.16/nexus-network-linux-arm64"
 MACOS_X86_64_URL="https://github.com/nexus-xyz/nexus-cli/releases/download/v0.10.17/nexus-network-macos-x86_64"
 MACOS_ARM64_URL="https://github.com/nexus-xyz/nexus-cli/releases/download/v0.10.17/nexus-network-macos-arm64"
 WINDOWS_X86_64_URL="https://github.com/nexus-xyz/nexus-cli/releases/download/v0.10.17/nexus-network-windows-x86_64.exe"
